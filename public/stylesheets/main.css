@@ -1,0 +1,419 @@
+html{
+  scroll-behavior: smooth;
+  
+}
+
+body{
+  background: #000000;
+  color: #f2f2f2;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.text{
+    line-height: 1.75;
+}
+
+
+.a {
+    position: relative;
+    background-color: black;
+    height: 90vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .a video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .a .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .a .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+ 
+
+
+
+
+  .learnMore {
+    border: 2px solid #000;
+    background: none;
+    color: #000000;
+    width: 50%;
+    height: 50px;
+    border-radius: 0px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .learnMore:hover {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+  }
+
+  .jumbotronButton{
+    border: 2px solid #fff;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 30%;
+    height: 50px;
+    border-radius: 0px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+  .jumbotronButton:hover {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+  }
+
+  .firstWatchButton{
+    border: 2px solid #fff;
+    background: none;
+    color: #ffffff;
+    width: 30%;
+    height: 50px;
+    border-radius: 0px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+  .firstWatchButton:hover {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    cursor: pointer;
+    background: #222222;
+    color: #fff;
+  }
+
+
+
+
+.carousel-caption{
+  top: 35%;
+}
+
+.logoPic{
+  width: 30%;
+}
+
+.navbar{
+  background-color: #fff;
+}
+
+.up-arrow {
+  transform: translate(0, 0);
+  transition: .5s ease;
+  color: #f2f2f2;
+  }
+  
+  .up-arrow:hover {
+  transform: translate(0, -10px);
+  transition: .5s ease;
+  }
+
+  .aboutus{
+    padding-top: 7%;
+    padding-bottom: 4%;
+  }
+
+  .aboutUsText{
+    line-height: 1.5;
+    padding-top: 5%;
+  }
+
+  .bio{
+    padding-top: 2%;
+  }
+
+  .contact{
+    padding-top:2%;
+    padding-bottom: 2%;
+  }
+
+  .collection{
+    padding-top:2%;
+    padding-bottom: 2%;
+  }
+
+.collectionPhotos{
+	width:100%;
+	transition: 0.5s;
+	opacity: 0.4;
+}
+
+.collectionPhotosLink{
+	color:#fff;
+}
+
+.collectionPhotosLink:hover{
+	width:100%;
+	color:#fff;
+	opacity: 0.8;
+}
+
+.collectionPhotoText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.collectionPhotoText:hover{
+  text-decoration: underline;
+}
+
+  .subscribe{
+    padding-top:15%;
+    padding-bottom: 9%;
+  }
+
+.contactButton{
+  border: 2px solid #fff;
+  background: none;
+  color: #ffffff;
+  width: 30%;
+  height: 50px;
+  border-radius: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.contactButton:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  cursor: pointer;
+  background: #222222;
+  color: #fff;
+}
+
+.subscribeButton
+{
+  border: 2px solid #000;
+  background: none;
+  color: #000000;
+  width: 20%;
+  height: 50px;
+  border-radius: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+
+.subscribeButton:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+}
+
+.investor {
+        width: 100%;
+}
+
+ .watch{
+   width: 100%;
+ }
+
+ .firstWatchRow {
+   padding-top: 10%;
+ }
+
+ .threePanelWatchRow {
+  padding-top: 10%;
+}
+
+
+.secondVideoBackground {
+  position: relative;
+  background-color: black;
+  height: 60vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.secondVideoBackground video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.secondVideoBackground .container {
+  position: relative;
+  z-index: 2;
+}
+
+.secondVideoBackground .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.fourPanelProducts {
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.testomonials{
+  padding-top: 5%;
+}
+
+.viewMore{
+  float: right;
+}
+
+.right-arrow {
+  transform: translate(0, 0);
+  transition: .5s ease;
+  font-size:30px;
+
+  }
+  
+.right-arrow:hover {
+  transform: translate(10px, 0);
+  transition: .5s ease;
+  }
+
+  .viewMoreLink{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .viewMoreLink:hover{
+    color: #fff;
+  }
+
+  .navbar{
+    background: #000;
+  }
+
+  .footerLinks{
+    color: #fff;
+  }
+
+  .footerLinks:hover{
+    color: #fff;
+  }
+
+.productLink{
+	text-decoration:none;
+	color: #fff;
+}
+
+.productLink:hover{
+    color: #fff;
+  }
+  /*  Extra small devices (portrait phones, less than 576px) 
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+/* 
+// Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .contact{
+    padding-top:7%;
+    padding-bottom: 2%;
+  }
+
+ }
+
+ @media (max-width: 992px) { 
+  html{
+    font-size: 2.5em;
+  }
+	.display-3{
+    font-size: 2em;
+  }
+	 .display-4{
+    font-size: 2em;
+  }
+	 
+	 .jumbotronButton{
+		 width: 80%;
+		 height: 100px;
+	 }
+	 
+	 .firstWatchButton{
+		 width: 60%;
+		 height: 10%; 
+	 }
+  } 
+
+ @media (max-width: 768px) { 
+  html{
+    font-size: 1.5em;
+  }
+	.display-3{
+    font-size: 2em;
+  }
+	 .display-4{
+    font-size: 2em;
+  }
+	 
+	 .jumbotronButton{
+		 width: 80%;
+		 height: 100px;
+	 }
+	 
+	 .firstWatchButton{
+		 width: 60%;
+		 height: 10%; 
+	 }
+  } 
