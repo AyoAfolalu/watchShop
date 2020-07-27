@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="shortcut icon" href="https://res.cloudinary.com/ayoafolalu/image/upload/v1594917008/watchSite/favicon_mhhevh.ico">
-    <title>Watch Shop</title>
+    <title>Timeless Watches - Watch Shop</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/main.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -19,14 +19,14 @@
     <div class="collapse navbar-collapse justify-content-md-center text-center" id="navbarsExample10">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="/home">Home</a>
+          <a class="nav-link" href="home">Home</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
           <div class="dropdown-menu" aria-labelledby="dropdown10">
             <a class="dropdown-item" href="all">All Watches</a>
-            <a class="dropdown-item" href="#">The Timeless Collection</a>
-            <a class="dropdown-item" href="#">Gold Watches</a>
+            <a class="dropdown-item ative" href="#">The Timeless Collection</a>
+            <a class="dropdown-item" href="gold">Gold Watches</a>
           </div>
         </li>
         <li class="nav-item">
@@ -36,25 +36,67 @@
     </div>
   </nav>
 
-  <section class = "collection">
-    <div class = "container">
-      <h1 class="display-4" align="center">Collections
-      </h1>
-      <div class = "collection row" data-aos="fade-up" data-aos-duration="1000">
-        <div class="col-lg-6">
-          <a class="collectionPhotosLink" href = "https://google.com"><img class="collectionPhotos" src="https://images.unsplash.com/photo-1535856010157-629669745746?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
-			<h1 class = "collectionPhotoText display-3">
-				<strong>The Timeless Collection</strong>
-			</h1></a>
-        </div>
-        
-        <div class="col-lg-6">
-            <a class="collectionPhotosLink" href = "https://google.com"><img class="collectionPhotos" src="https://images.unsplash.com/photo-1493799582117-9a58bc07a8de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
-			<h1 class = "collectionPhotoText display-3">
-				<strong>Gold Watch Collection</strong>
-				</h1></a>
-         </div>
-      </div>
+  <section class = "Products">
+      <div class="container">
+	  <h1 class="display-4 text-center">The Timeless Collection</h1><br>
+		<div class="dropdown text-center">
+  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select a collection
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="all">All Watches</a>
+    <a class="dropdown-item" href="gold">Gold Collection</a>
+    <a class="dropdown-item active" href="#">The Timeless Collection</a>
+  </div>
+</div><br>
+	<div class = "fourPanelProductRow row">
+	  <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+		<a class="productLink" href="https://google.com"><img class="watch" src="https://images.pexels.com/photos/277319/pexels-photo-277319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+		<br><br>
+		<p><strong>Cosmograph Daytona</strong>
+		<br>€9200.00
+	  </p></a>
+		  </div>
+	  <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+		<a class="productLink" href="https://google.com"><img class="watch" src="https://images.unsplash.com/photo-1451290173668-9a14beaf714c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1057&q=80">
+		<br><br>
+		<p><strong>Perpetual</strong>
+		<br>€10,500.99
+			</p></a>
+	  </div>
+	  <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+		<a class="productLink" href="https://google.com"><img class="watch" src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+		<br><br>
+		<p><strong>Braun</strong>
+		  <br>€11,500.99
+			</p></a>
+	 </div>
+	  </div>
+		  <div class = "fourPanelProductRow row">
+	  <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+		<a class="productLink" href="https://google.com"><img class="watch" src="https://images.unsplash.com/photo-1451859757691-f318d641ab4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+		<br><br>
+		<p><strong>Wellington</strong>
+		<br>€25,000.00
+	  </p></a>
+		  </div>
+	  <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+		<a class="productLink" href="https://google.com"><img class="watch" src="https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+		<br><br>
+		<p><strong>Greyscale</strong>
+		<br>€30,000.99
+			</p></a>
+	  </div>
+	  <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+		<a class="productLink" href="https://google.com"><img class="watch" src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+		<br><br>
+		<p><strong>Explorer</strong>
+		  <br>€35,000.00
+			</p></a>
+	 </div>
+	  </div>
+		  
+	</div>
 
   </section>
 
@@ -70,7 +112,7 @@
       <h5>Quick Links</h5>
       <ul class="list-unstyled">
         <li><a class="footerLinks" href="#">Search</a></li>
-        <li><a class="footerLinks" href="#">Shop</a></li>
+        <li><a class="footerLinks" href="/all">Shop</a></li>
         <li><a class="footerLinks" href="/contact">Contact</a></li>
       </ul>
     </div>

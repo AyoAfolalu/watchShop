@@ -27,6 +27,21 @@ app.get("/collections",function(req,res)
 		res.render("collections");
 		});
 
+app.get("/all",function(req,res)
+{
+		res.render("all");
+		});
+
+app.get("/gold",function(req,res)
+{
+		res.render("gold");
+		});
+
+app.get("/timeless",function(req,res)
+{
+		res.render("timeless");
+		});
+
 app.get("/*",function(req,res)
 {
 		res.render("home");
