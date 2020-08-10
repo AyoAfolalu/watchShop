@@ -405,6 +405,14 @@ body{
 		 width: 60%;
 		 height: 10%; 
 	 }
+	 
+  .contactButton{
+  border: 2px solid #fff;
+  background: none;
+  color: #ffffff;
+  width: 50%;
+  height: 80px;
+}
   } 
 
  @media (max-width: 768px) { 
@@ -427,8 +435,18 @@ body{
 		 width: 60%;
 		 height: 10%; 
 	 }
+	 
+	 .contactButton{
+  border: 2px solid #fff;
+  background: none;
+  color: #ffffff;
+  width: 50%;
+  height: 50px;
+}
+	 
   } 
 
 .watchOverview{
 	padding-bottom: 20%;
 }
+
